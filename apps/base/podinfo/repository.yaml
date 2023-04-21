@@ -16,7 +16,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/manikanth1811/podinfo/charts/podinfo
+  url: https://github.com/manikanth1811/podinfo
   ref:
     branch: master  
   ignore: |
