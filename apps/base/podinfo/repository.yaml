@@ -19,3 +19,6 @@ spec:
   url: https://github.com/manikanth1811/podinfo/charts/podinfo
   ref:
     branch: master  
+  ignore: |
+  /*
+  !/charts/
