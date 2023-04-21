@@ -22,9 +22,7 @@ metadata:
   namespace: podinfo
 spec:
   interval: 1m
-  secretRef:
-    name: flux-system
-  url: ssh://git@github.com/manikanth1811/podinfo
+  url: https://github.com/manikanth1811/podinfo
   ref:
     branch: master  
   ignore: |
