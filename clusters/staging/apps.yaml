@@ -19,7 +19,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: podinfo
-  namespace: flux-system
+  namespace: podinfo
 spec:
   interval: 1m
   secretRef:
