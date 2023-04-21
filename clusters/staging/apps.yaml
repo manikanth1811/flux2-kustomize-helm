@@ -28,5 +28,5 @@ spec:
   ref:
     branch: master  
   ignore: |
-  /*
-  !/charts/
+    /*
+    !/charts/
