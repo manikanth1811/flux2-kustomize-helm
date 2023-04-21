@@ -28,3 +28,22 @@ spec:
   ignore: |
     /*
     !/charts/
+
+---
+
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: react-app
+  namespace: react-app
+spec:
+  interval: 1m
+  url: https://github.com/manikanth1811/react-article-display
+  ref:
+    branch: main
+  ignore: |
+    # exclude all
+    /*
+    # include charts directory
+    !/deploy/helm/
+---
