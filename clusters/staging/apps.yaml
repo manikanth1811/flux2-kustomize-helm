@@ -14,17 +14,3 @@ spec:
   prune: true
   wait: true
   timeout: 5m0s
----
-apiVersion: source.toolkit.fluxcd.io/v1
-kind: GitRepository
-metadata:
-  name: podinfo1
-  namespace: podinfo
-spec:
-  interval: 1m
-  url: https://github.com/manikanth1811/podinfo
-  ref:
-    branch: master  
-  ignore: |
-  /*
-  !/charts/
