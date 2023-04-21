@@ -7,18 +7,18 @@ spec:
   interval: 5m
   url: https://stefanprodan.github.io/podinfo
 
-# ---
+---
 
-# apiVersion: source.toolkit.fluxcd.io/v1
-# kind: GitRepository
-# metadata:
-#   name: podinfo
-#   namespace: flux-system
-# spec:
-#   interval: 1m
-#   url: https://github.com/manikanth1811/podinfo
-#   ref:
-#     branch: master  
-#   ignore: |
-#   /*
-#   !/charts/
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: podinfo
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: https://github.com/manikanth1811/podinfo
+  ref:
+    branch: master  
+  ignore: |
+  /*
+  !/charts/
