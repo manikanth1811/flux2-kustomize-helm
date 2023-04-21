@@ -35,7 +35,7 @@ spec:
   interval: 1m
   url: https://github.com/manikanth1811/podinfo
   ref:
-    branch: master  
+    branch: main  
   ignore: |
   /*
   !/charts/
