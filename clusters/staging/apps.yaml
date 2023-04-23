@@ -38,7 +38,7 @@ spec:
   interval: 1m
   url: https://github.com/manikanth1811/react-article-display
   ref:
-    branch: helm-charts-change
+    branch: main
   ignore: |
     # exclude all
     /*
